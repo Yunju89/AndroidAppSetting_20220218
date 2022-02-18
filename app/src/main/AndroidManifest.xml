@@ -12,20 +12,22 @@
         android:roundIcon="@mipmap/ic_neppplus_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppSetting_20220218">
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
 
         </activity>
     </application>
